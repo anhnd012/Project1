@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Project2.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div id="main">
+        <h1 id = "title">Survey Form</h1>
+        <div id="body-box">
+            <p id="des-title">Let us know how we can improve freeCodeCamp</p>
+            <div id = "row-tab">
+                <div class="left"><label>Name</label></div>
+                <div class="right"><input type="text" name="name" id="name" placeholder="Enter your Name"></div>
+            </div>
+            <div id = "row-tab">
+                <div class="left"><label>Email</label></div>
+                <div class="right"><input type="text" name="email" id="name" placeholder="Enter your Email"></div>
+            </div>
+            <div id = "row-tab">
+                <div class="left"><label>Age</label></div>
+                <div class="right"><input type="number" name="age" id="age" placeholder="Age"></div>
+            </div>
+            <div id = "row-tab">
+                <div class="left"><label>Which option best describe your current role?</label></div>
+                <div class="right">
+                    <select name="role" id="role">
+                        <option value="">Student</option>
+                    </select>
+                </div>
+            </div>
+            <div id="row-tab">
+                <div class="left"><label>How likely is that you would recommend freeCodeCamp to a friend</label></div>
+                <div class=right>
+                    <div><input type="radio" name="recommend"> Definitely</div>
+                    <div><input type="radio" name="recommend"> Maybe</div>
+                    <div><input type="radio" name="recommend"> Not sure</div>
+                </div>
+            </div>
+            <div id="row-tab">
+                <div class="left"><label>What do you like most in FCC?</label></div>
+                <div class=right>
+                    <select name="" id="">
+                        <option value="">Select an option</option>
+                    </select>
+                </div>
+            </div>
+            <div id="row-tab">
+                <div class="left"><label>Things that should be improved in the future<br>(Check all that apply)</label></div>
+                <div class="right">
+                    <div><input type="checkbox"  id=""> Front-end Project</div>
+                    <div><input type="checkbox"  id=""> Back-end Project</div>
+                    <div><input type="checkbox"  id=""> Data Visualization</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
